@@ -79,7 +79,7 @@ For example:
 
 Specifies the alignment of the Embedded Tweet.
 
-Possible values: 'left`, `right`, `center`. Alignment styles are not specified by default.
+Possible values: `left`, `right`, `center`. Alignment styles are not specified by default.
 
 For example:
 
