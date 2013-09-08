@@ -92,3 +92,7 @@ Specifies the language of the _Follow_ button, _Favorites_ count, _Reply_, _Retw
 For example:
 
     {{ twitter_embed:tweet id="376108150048686080" lang="fr" }}
+
+## To do
+
+* Add caching
