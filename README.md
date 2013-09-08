@@ -28,11 +28,11 @@ All parameters are optional except for `id`.
 
 Specifies the __id__ of the Tweet to embed.
 
-The `id` for Tweet `https://twitter.com/ademers/status/376108150048686080` is `376108150048686080`.
+The `id` for Tweet `https://twitter.com/ademers/status/376435741423063040` is `376435741423063040`.
 
 For example:
 
-    {{ twitter_embed:tweet id="376108150048686080" }}
+    {{ twitter_embed:tweet id="376435741423063040" }}
 
 #### maxwidth
 
@@ -40,7 +40,7 @@ Specifies the maximum width in pixels that the Embedded Tweet should be rendered
 
 For example:
 
-    {{ twitter_embed:tweet id="376108150048686080" maxwidth="400" }}
+    {{ twitter_embed:tweet id="376435741423063040" maxwidth="400" }}
 
 #### hide_media
 
@@ -50,7 +50,7 @@ Set to `true` to hide.
 
 For example:
 
-    {{ twitter_embed:tweet id="376108150048686080" hide_media="true" }}
+    {{ twitter_embed:tweet id="376435741423063040" hide_media="true" }}
 
 #### hide_thread
 
@@ -60,7 +60,7 @@ If the Embedded Tweet is a reply to another Tweet, set to `true` to hide the ori
 
 For example:
 
-    {{ twitter_embed:tweet id="376108150048686080" hide_thread="true" }}
+    {{ twitter_embed:tweet id="376435741423063040" hide_thread="true" }}
 
 #### omit_script
 
@@ -73,7 +73,7 @@ Only one of `widgets.js` needs to be included per page. Therefore, if you have m
 
 For example:
 
-    {{ twitter_embed:tweet id="376108150048686080" omit_script="true" }}
+    {{ twitter_embed:tweet id="376435741423063040" omit_script="true" }}
 
 #### align
 
@@ -83,7 +83,7 @@ Possible values: `left`, `right`, `center`. Alignment styles are not specified b
 
 For example:
 
-    {{ twitter_embed:tweet id="376108150048686080" align="center" }}
+    {{ twitter_embed:tweet id="376435741423063040" align="center" }}
 
 #### lang
 
@@ -91,8 +91,8 @@ Specifies the language of the _Follow_ button, _Favorites_ count, _Reply_, _Retw
 
 For example:
 
-    {{ twitter_embed:tweet id="376108150048686080" lang="fr" }}
+    {{ twitter_embed:tweet id="376435741423063040" lang="fr" }}
 
 ## To do
 
-* Add caching
+* ~~Add caching~~
